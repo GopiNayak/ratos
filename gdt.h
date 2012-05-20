@@ -14,6 +14,7 @@ struct gdt_desc
 {
 	uint16 size;
 	uint32 gdt_address;
-}	
+	
+}
 
 typedef struct gdt_desc gdt_desc_s;
