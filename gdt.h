@@ -9,7 +9,7 @@ struct gdt_entry
 }_attribute_((packed));
 
 typedef struct gdt_entry gdt_entry_s;
-
+//hi sir How r u ?
 struct gdt_desc
 {
 	uint16 size;
